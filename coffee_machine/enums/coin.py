@@ -6,3 +6,7 @@ class Coin(Enum):
     NICKEL = 0.05
     DIME = 0.1
     QUARTER = 0.25
+
+
+class NotEnoughMoneyError(BaseException):
+    pass
